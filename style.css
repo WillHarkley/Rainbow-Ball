@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+div {
+    height: 600px;
+    width: 600px;
+    background: black;
+    margin: 50px auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+#rb {
+    animation-name: rainbow;
+    animation-duration: 5s;
+}
+
+@keyframes rainbow {
+    0% {
+        background-color: blue;
+        top: 0px;
+    }
+    50% {
+        background-color: green;
+        top: 300px;
+    }
+    100% {
+        background-color: yellow;
+        top: -25px;
+    }
+}
