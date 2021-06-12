@@ -13,7 +13,8 @@ div {
 
 #rb {
     animation-name: rainbow;
-    animation-duration: 5s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes rainbow {
@@ -23,7 +24,7 @@ div {
     }
     50% {
         background-color: green;
-        top: 300px;
+        top: 280px;
     }
     100% {
         background-color: yellow;
